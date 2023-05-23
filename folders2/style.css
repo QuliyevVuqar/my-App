@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(38, 36, 36);
+}
+#header{
+    padding: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.logo_content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    flex-grow: 7;
+}
+.logo_content img{
+    width: 50px;
+    border-radius: 50%;
+}
+.buttons_groups{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    flex-grow: 3;
+  
+}
+.buttons_groups a {
+    padding: 10px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar{
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.container {
+    padding: 95px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#about
+#contact
+#blog{
+    padding-top: 24px;
+    border-top: 1px solid gray;
+    margin-bottom: 100px;
+}
+
+.about_info{
+    text-align: center;
+    color: white;
+}
+.about_info h2{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.about_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
