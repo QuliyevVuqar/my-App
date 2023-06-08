@@ -46,9 +46,10 @@ body{
 .navbar{
     background-color: coral;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 14px;
+    gap: 20px;
 }
 
 .navbar ul{
@@ -92,8 +93,54 @@ body{
     font-weight: 600;
     line-height: 50px;
 }
+.about_info:hover p{
+    display: block;
+}
+.about_info p {
+    display: none;
+}
+
 .about_img{
     display: flex;
     justify-content: center;
     margin-top: 24px;
+}
+.buttons_groups .btn:hover{
+    background-color: red;
+    color: #ffff;
+}
+
+.list-item{
+    position: relative;
+}
+.list-item:hover .info-nav{
+   display: block;
+}
+.info-nav{
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 200px;
+    border-radius: 4px;
+    padding: 10px;
+     z-index: 999;
+     color: #ffff;
+}
+.info-nav ul{
+    flex-direction: column;
+}
+
+
+.info-nav li{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+
+.list li:first-child a {
+ color: red;
+ background-color: blue;
 }
