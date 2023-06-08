@@ -147,19 +147,7 @@ body {
   align-items: center;
   color: #303031;
 }
-/* .Card{
-    width: 427px;
-    height: 340px;
-    left: 0;
-    top: 0;
-    background: #ffff;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
+
 .Card2 p {
   width: 199px;
   text-align: center;
@@ -180,7 +168,26 @@ body {
   top: 0px;
   border-radius: 100px;
 }
-.icon1_text{
+.main{
+  display: flex;
+}
+.textts{
+  display: flex;
+  flex-direction: column;
+}
+.textts img{
+ margin-left: 60px;
+ margin-top: 100px;
+ border-radius: 100px;
+ background: #f3f0ea;
+ height: 80px;
+ width: 80px;
+}
+.textts .textt{
+ margin-left: 56px;
+
+}
+.icon1_text {
   margin-left: 56px;
 }
 .Logo2 p {
@@ -193,7 +200,6 @@ body {
   color: #303031;
   display: flex;
   margin-left: 56px;
-
 }
 
 .box_1 {
@@ -227,6 +233,8 @@ body {
   display: flex;
   position: relative;
   gap: 186px;
+  padding: 5px 50px 0px 100px;
+  margin-top: 100px;
 }
 
 .qutu {
@@ -284,7 +292,7 @@ body {
   height: 32px;
   font-family: var(--fontRoboto);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 100;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.02em;
@@ -393,15 +401,16 @@ body {
   letter-spacing: -0.02em;
   color: #ffffff;
 }
+
 .texts-items {
   display: flex;
-  justify-content: flex-end;
-}
-.logo_10 {
-}
-.logo-10 {
-}
-.textt {
+  flex-direction: column;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #303031;
 }
 
 .title_body {
@@ -420,6 +429,6 @@ body {
   color: #303031;
   margin-top: 24px;
 }
-.header-bottom-text{
+.header-bottom-text {
   margin-top: 24px;
 }
