@@ -547,3 +547,316 @@ body {
   margin-top: 12px !important;
   max-width: 404px;
 }
+.tableBottom {
+  display: flex;
+  gap: 12px;
+}
+.tableBotttomLeft {
+  background: #f3f0ea;
+  border: 4px solid #303031;
+  border-radius: 16px;
+  padding: 32px 0px 32px 40px;
+  max-width: 381px;
+  min-width: 381px;
+}
+
+.applacationText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #303031;
+}
+.imgBody {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.imgBody img {
+  border-radius: 50%;
+}
+
+.imgBody div {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.tableBotttomRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  border: 4px solid #71a894;
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+.tableBotttomRight img {
+  min-width: 72px;
+  min-height: 72px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #303031;
+  margin-bottom: 4px;
+}
+
+.workname {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #66645e;
+}
+
+.workcommit {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #303031;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.profileButton {
+  width: 100%;
+  height: 44px;
+  background: #303031;
+  border-radius: 16px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.userImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enterPriseShare {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.enterText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: var(--textColor);
+  margin-bottom: 24px;
+}
+
+.enterText2 {
+  margin-bottom: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--mediumSize);
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+}
+
+.enterCardBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--largeSize);
+}
+
+.enterCard {
+  width: 427px;
+  height: 216px;
+  background: var(--whiteColor);
+  padding: 24px 24px 28px 24px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: var(--smallSize);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: start;
+}
+
+.enterCardTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--mediumSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-bottom: var(--smallSize);
+}
+
+.enterCardDescription {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-bottom: var(--largeSize);
+}
+
+.Cardbottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.enterCardButton {
+  width: 68px;
+  height: 32px;
+  background: var(--activeColor);
+  border-radius: 40px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--whiteColor);
+}
+
+.cardAppareance {
+  font-style: italic;
+  font-weight: 100;
+  font-size: var(--smallSize);
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.02em;
+  color: #303031;
+}
+
+.moreButton {
+  width: 134px;
+  height: 64px;
+  background: var(--textColor);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--mediumSize);
+  line-height: 24px;
+  text-align: center;
+  color: var(--whiteColor);
+  border: 0;
+  margin-top: 64px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 56px 44px 56px;
+  margin-top: 44px;
+}
+
+footer .footerTop {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 0px 0px 126px 0px;
+  align-items: center;
+}
+
+.footerTopText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--ultiSize);
+  line-height: 64px;
+  color: var(--textColor);
+  margin-bottom: var(--largeSize);
+}
+
+.footerTopDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--mediumSize);
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-bottom: 40px;
+}
+
+.footerButton {
+  background: var(--activeColor);
+  border-radius: 8px;
+  border: 0;
+  width: 220px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--mediumSize);
+  line-height: 24px;
+  color: #ffffff;
+}
+.footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--largeSize);
+  line-height: 33px;
+  letter-spacing: -0.04em;
+  color: var(--textColor);
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+footer nav ul li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+}
+footer nav ul li:last-child a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: var(--activeColor);
+}
